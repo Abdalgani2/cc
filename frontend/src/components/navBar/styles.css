@@ -1,0 +1,49 @@
+.nav-v1{
+  padding: 10px 20px;
+  background-color: #4b4e50 !important;
+  padding: 10px 24px;
+}
+.navLogo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo-title{
+  font-size: 16px !important;
+    color: #86C85D;
+}
+.login-form{
+  padding: 0px 15px;
+}
+.login-form h4{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.css-1ay2c7g-MuiGrid-root {
+  margin-top: 0px !important;
+}
+.login-form input{
+  padding-top: 16px;
+}
+.login-form .login-btn{
+  background-color: #4b4e50 !important;
+  padding: 5px 24px;
+  font-size: 16px !important;
+  color: #86C85D;
+  margin-top: 16px;
+}
+.errorMessage,.errorMessage1 {
+  color: red;
+  position: 'relative';
+  margin-top: 7px;
+  height: 14px;
+  font-size: 10pt;
+}
+.passMessage,.passMessage1  {
+  color: green;
+  position: 'relative';
+  margin-top: 7px;
+  height: 14px;
+  font-size: 10pt;
+}

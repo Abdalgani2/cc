@@ -1,0 +1,198 @@
+.mainDiv1 {
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  border: 3px black solid;
+}
+
+.cardDiv1 {
+  background-color: #F7F5F2;
+  text-align: center;
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+
+}
+
+.mainDivUser {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.subDivUser {
+  width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F7F5F2;
+  text-align: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 1rem;
+
+}
+
+.tadInDiv {
+  width: 10rem;
+}
+
+.emailInDiv {
+  width: 25rem;
+  margin-left: 30px;
+}
+
+.deleteIcon {
+  color: rgb(255, 0, 0);
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.subDivCategory {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #F7F5F2;
+  text-align: center;
+
+}
+
+.mainDivCategory {
+
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+
+.deleteIconCategory {
+  color: rgb(255, 0, 0);
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.addCategoryButton {
+  height: 40px;
+}
+
+.addCat {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.addCategory {
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+
+}
+nav{
+  text-align: center;
+}
+.imageItem {
+  width: 200px;
+  height: 100px;
+}
+
+.itemInDiv {
+  width: 10rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.backButton{
+  margin-left: auto;
+  margin-right: auto;
+  width:50px;
+  height:50px;
+  margin-top: 20px;
+  
+}
+.subDivAccept{
+  width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F7F5F2;
+  text-align: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns:auto auto auto auto auto;
+  margin-top: 1rem;
+
+}
+.AproovIcon {
+  color: green;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background-color: #4b4e50 !important;
+  padding: 10px 24px;
+}
+.main-navBar .css-1q39md6-MuiButtonBase-root-MuiButton-root{
+  color: #86C85D;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-container-div{
+  margin-top: 30px;
+}
+.order-pending-image{
+  width: 40px;
+}
+.cancel-icon{
+  color: red;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.accept-icon{
+  color: lightgreen;
+  cursor: pointer;
+}
+.css-1t6c9ts {
+  gap: 30px;
+  margin-left: 20px;
+}
+/* .edit-user-info-header{
+  background-color: #4b4e50 !important;
+} */
+.input-edit-default{
+width: 100%;
+margin-top: 20px !important;
+}
+.add-new-field{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.add-new-field p{
+  margin: 0px !important;
+}
+/* .edit-user-info-header{
+  margin-bottom: 20px;
+} */

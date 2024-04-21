@@ -1,0 +1,78 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const orderSchema = new Schema({
+    mainUserImg:{
+        type:String,
+    },
+    name:{
+        type:String,
+        required:true
+    },
+    mainUserimgUrl:{
+        type:[String],
+        required:true
+    },
+    mobile:{
+       type:Number,
+       required:true 
+    },
+    mobileType:{
+        type:String,
+        required:true 
+     },
+     email:{
+        type:Number,
+        required:true 
+     },
+     emailType:{
+         type:String, 
+      },
+      whatsapp:{
+        type:String,
+      },
+      instaLabel:{
+        type:String,
+    },
+    instaLink:{
+        type:String,
+    },
+    facebookLabel:{
+        type:String,
+    },
+    facebookLink:{
+        type:String,
+    },
+    tiktokLabel:{
+        type:String,
+    },
+    tiktokLink:{
+        type:String,
+    },
+    snapLabel:{
+        type:String,
+    },
+    snapLink:{
+        type:String,
+    },
+    telegramLabel:{
+        type:String,
+    },
+    telegramLink:{
+        type:String,
+    },
+    linkedInLabel:{
+        type:String,
+    },
+    linkedInLink:{
+        type:String,
+    },
+    websiteLink:{
+        type:String,
+    },
+    location:{
+        type:String,
+    },
+});
+
+module.exports =  mongoose.model('order',orderSchema);
